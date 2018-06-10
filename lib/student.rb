@@ -6,8 +6,8 @@ class Student < User
   end
 
 
-  def knowledge
-
+  def learn(string)
+    knowledge << string
   end
 
 end

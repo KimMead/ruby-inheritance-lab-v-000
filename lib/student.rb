@@ -1,10 +1,10 @@
 class Student < User
 
 def initialize(knowledge)
-  @knowledge << self 
-end 
+  @knowledge << self
+end
   def knowledge
-    
-  end 
-    
+
+  end
+
 end
